@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    
+}
+.Heading{
+    font-family: 'Mukta', sans-serif;
+    background-color: #5F9DF7;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.NavBar{
+    display: flex;
+    background-color: #1746A2;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+   
+    
+}
+.NavBarItem{
+    color: #FF731D;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+  
+}
+
+.NavBarItem:hover{
+    color: #FFF7E9;
+   
+}
+.Footer{
+   padding-top: 5px;
+    background-color: #1746A2;
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+   position: fixed;
+   bottom: 0px;
+}
+
+
+.ProductHead{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #5F9DF7;
+}
+
+.ProductList{
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+   margin-right: 100px;
+  
+}
+
+.ProductSearch{
+    font-family: 'Mukta', sans-serif;
+   font-size: 18px;
+    text-align: center;
+    color: black;
+   text-decoration: none;
+    border: 2px solid #1746A2;
+    border-radius: 5px;
+    height: 5vh;
+    margin-top: 4vh;
+    width: 15vw;
+    
+    
+}
+.Products{
+    padding: 10px;
+    display: flex;
+    
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.Product{
+width: 20vw;
+border-radius: 10px;
+margin: 15px;
+border: 2px solid #5F9DF7;
+text-align: center;
+color: #1746A2;
+box-shadow: 5px 5px;
+
+
+}
+.Delete{
+    text-decoration: none;
+    background-color: #1746A2;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    margin-right: 5px;
+}
+.Delete:hover{
+    background-color: #FF731D;
+}
+.Update{
+    text-decoration: none;
+    background-color: #1746A2;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    padding: 0px 5px;
+}
+.Update:hover{
+    background-color: #FF731D;
+}
+
+.AddProduct{
+    width: 20vw;
+    height: 55vh;
+position: relative;
+left: 35vw;
+top: 8vh;
+border-radius: 10px;
+margin: 15px;
+border: 2px solid #5F9DF7;
+text-align: center;
+color: #1746A2;
+box-shadow: 5px 5px;
+}
+
+.AddProduct input{
+    height: 20px;
+    display: block;
+    margin-left: 16%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    border: 2px solid #5F9DF7;
+    border-radius: 6px;
+    color: #1746A2;
+    font-size: 14px;
+
+}
+.AddProduct span{
+    color: red;
+    display: block;
+    position: absolute;
+    z-index: +1;
+    left:18%;
+  
+}
+.AddProduct button{
+    text-decoration: none;
+    background-color: #1746A2;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Mukta', sans-serif;
+    margin-right: 5px;
+    margin-top: 8%;
+    
+
+}
+.AddProduct button:hover{
+    background-color: #FF731D;
+}
